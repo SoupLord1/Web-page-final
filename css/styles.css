@@ -1,0 +1,114 @@
+body {
+    background:url("https://th.bing.com/th/id/OIP.zt0OrmgRoySRAtg0f0rZ9AHaEl?w=294&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"); 
+}
+
+#Page {
+    background-color: darkslategray;
+    height: 600px;
+
+}
+
+img {
+    float:right;
+    margin-right:50px;
+    width:120px;
+}
+
+/*Columns*/
+.columns {
+
+    overflow: hidden;
+    clear:both;
+    float:left;
+    width:100%;
+    position:relative;
+    padding:0 0 1em 2px;
+    margin-top:50px;
+
+    
+    /* Work on side link bar and main content */
+}
+
+#col1 {
+    background-color: gray;
+    border:2px ridge black;
+    margin-top: 50px;
+    position: relative;
+    width:100px;
+    margin-left:10px;
+}
+
+#col2 {
+    background-color: gray;
+    border:2px ridge black;
+    position: absolute;
+    width:80%;
+    float:right;
+    margin-top:50px;
+    margin-left: 115px;
+
+
+}
+
+
+/*Title*/
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+/* dropdown styling */
+#dropdown {
+    width:100%;
+    height: 30px;
+    position: relative;
+    padding-left:50%;
+    margin-left:-95px;
+    z-index: 10;
+}
+
+#dropdown li {
+    text-align: center;
+    width:auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:2px;
+    background-color: gray;
+    list-style: none;
+    position: relative;
+    float:left;
+}
+    
+#dropdown ul ul {
+    top:100%;
+    left:-42px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width:100px;
+    
+}
+
+#dropdown ul ul ul {
+    left:75px;
+    top:-2px;
+    width:auto;
+    
+}
+
+#dropdown li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
+a {
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.links {
+    color:blue;
+    text-decoration: underline;
+}
